@@ -4,3 +4,7 @@ Program requirements to do !
 3. process coins
 4. check transactions succesfull?
 5. make coffee 
+
+
+106 
+26.33
