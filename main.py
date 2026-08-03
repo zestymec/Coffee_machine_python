@@ -75,4 +75,4 @@ while coffee_machine_on:
             if is_transaction_successful(payment, drink["cost"]):
                 make_coffee(choice, drink["ingredients"])
     else:
-        print("Invalid selection. Please choose espresso, latte, or cappuccino.") 
+        print("Invalid selection. Please choose espresso, latte, or cappuccino.")  
