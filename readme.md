@@ -9,5 +9,5 @@ open trivia database !
 
 pretty table
 oop-coffeomachine
-day 16 done
-125 going on !
+day 17 done
+129  done !
