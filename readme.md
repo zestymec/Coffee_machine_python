@@ -5,7 +5,9 @@ Program requirements to do !
 4. check transactions succesfull?
 5. make coffee
 
+open trivia database !
+
 pretty table
 oop-coffeomachine
 day 16 done
-125 done
+125 going on !
