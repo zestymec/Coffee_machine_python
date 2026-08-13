@@ -8,4 +8,4 @@ Program requirements to do !
 pretty table
 oop-coffeomachine
 day 16 done
-121 6.50 
+122 done
