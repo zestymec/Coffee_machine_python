@@ -10,4 +10,4 @@ open trivia database !
 pretty table
 oop-coffeomachine
 day 17 done
-131st  video
+132 2.3
