@@ -12,5 +12,6 @@ oop-coffeomachine
 random color and tulip and turtle random walk
 extracting (data)color from img 
 colorgram , pillow
-day 17 done
-136  done 
+day 18 done
+event listners state , multiple instances
+138  done 
