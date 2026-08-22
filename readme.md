@@ -9,5 +9,8 @@ open trivia database !
 
 pretty table
 oop-coffeomachine
+random color and tulip and turtle random walk
+extracting (data)color from img 
+colorgram , pillow
 day 17 done
-133 done 
+135  done 
