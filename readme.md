@@ -14,4 +14,4 @@ extracting (data)color from img
 colorgram , pillow
 day 18 done
 event listners state , multiple instances
-140  done 
+142  done 
