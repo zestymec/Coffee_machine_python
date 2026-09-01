@@ -1,37 +1,20 @@
 from turtle import Turtle, Screen
+import random
 
-tim = Turtle()
-screen = Screen()
-tim.speed(0)
+Screen = Screen()
+# Screen.setup(width=500, height=400)
+# decision = Screen.textinput(
+#     title="Make your decision", prompt="Which trutle will win the race? Enter a code :"
+# )
+colors = ["red","blue","pink","green","purple","orange"]
 
-def move_forward():
-    tim.forward(10)
-
-
-def move_backward():
-    tim.backward(10)
-
-def move_Left():
-    tim.left(10)
-
-def move_Right():
-    tim.right(10)
-
-def clear():
-    tim.clear()
-
-def home():
-    tim.penup()
-    tim.home()
-    tim.pendown()
+for turtle in range(0,6):
+    turtle = Turtle(shape="turtle")
+    color = random.random(colors)
+    turtle.color(color)
+    turtle.penup()
+    turtle.goto(x=-250 , y=200)
 
 
-screen.listen()
-screen.onkey(key="space", fun=move_forward)
-screen.onkey(key="Up", fun=move_forward)
-screen.onkey(key="Down", fun=move_backward)
-screen.onkey(key="Left", fun=move_Left)
-screen.onkey(key="Right", fun=move_Right)
-screen.onkey(key="c", fun=clear)
-screen.onkey(key="h", fun=home)
-screen.exitonclick()
+
+Screen.exitonclick()
