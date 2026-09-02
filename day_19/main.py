@@ -9,7 +9,7 @@ decision = Screen.textinput(
 )
 colors = ["red","blue","pink","green","purple","orange"]
 yaxis = 200
-all_turtle = []
+all_turtles = []
 for turtle in range(0,6):
     turtle = Turtle(shape="turtle")
     color = random.choice(colors)
@@ -17,15 +17,20 @@ for turtle in range(0,6):
     turtle.penup()
     turtle.goto (x=-250 , y=yaxis)
     yaxis -= 40
-    all_turtle.append(turtle)
+    all_turtles.append(turtle)
 
 
 if decision:
     is_race_on = True
 while  is_race_on:
-    for turtle in all_turtle:
+    for turtle in all_turtles:
+        if turtle.xcor() > 230:
+            print("winner")
+
         rand_distance = random.randint(0,10)
         turtle.forward(rand_distance)
+
+
 
 
 Screen.exitonclick()
