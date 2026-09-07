@@ -14,4 +14,6 @@ extracting (data)color from img
 colorgram , pillow
 day 18 done
 event listners state , multiple instances
-143 done
+multiple object and classes 
+oops and turtle to make famous snake game !
+146 done
