@@ -21,4 +21,7 @@ animation control in python turtle
 time module
 making snake class and move to oops 
 class names in python
-148 done
+
+custom coded gawm 
+150
+
