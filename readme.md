@@ -25,6 +25,6 @@ class inheritance slicing and finishing the snake game
 day 20 done
 use of class and class inheritance and super() its use and updating prev class !
 
-153
+153 (6.42)
 
 
