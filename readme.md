@@ -23,5 +23,8 @@ class names in python
 custom coded gawm 
 class inheritance slicing and finishing the snake game
 day 20 done
-152
+use of class and class inheritance and super() its use and updating prev class !
+
+153
+
 
